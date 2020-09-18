@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB801A49229C7F8A00274C4C /* Lepas Suntuk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lepas Suntuk.entitlements"; sourceTree = "<group>"; };
 		CB89CC5A22533E2B004553B9 /* Lepas Suntuk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lepas Suntuk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB89CC5D22533E2B004553B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB89CC5F22533E2B004553B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,11 +36,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB3B5FA422B91D5800F60D79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB89CC5122533E2A004553B9 = {
 			isa = PBXGroup;
 			children = (
 				CB89CC5C22533E2B004553B9 /* Lepas Suntuk */,
 				CB89CC5B22533E2B004553B9 /* Products */,
+				CB3B5FA422B91D5800F60D79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +63,7 @@
 		CB89CC5C22533E2B004553B9 /* Lepas Suntuk */ = {
 			isa = PBXGroup;
 			children = (
+				CB801A49229C7F8A00274C4C /* Lepas Suntuk.entitlements */,
 				CB89CC5D22533E2B004553B9 /* AppDelegate.swift */,
 				CB89CC5F22533E2B004553B9 /* ViewController.swift */,
 				CB89CC6122533E2B004553B9 /* Main.storyboard */,
@@ -96,6 +106,14 @@
 				TargetAttributes = {
 					CB89CC5922533E2A004553B9 = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -283,13 +301,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7FCMB3QMK7;
+				DEVELOPMENT_TEAM = Y2XHN44C82;
 				INFOPLIST_FILE = "Lepas Suntuk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fahmialfareza.Lepas-Suntuk";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lepassuntuk.LepasSuntuk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,13 +320,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7FCMB3QMK7;
+				DEVELOPMENT_TEAM = Y2XHN44C82;
 				INFOPLIST_FILE = "Lepas Suntuk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fahmialfareza.Lepas-Suntuk";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lepassuntuk.LepasSuntuk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
